@@ -1,0 +1,67 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.header{
+  text-align: right;
+  background-color: rgb(25, 67, 70);
+  padding: 20px 0px;
+}
+.header a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: rgb(235, 222, 222);
+  transition: .4s;
+  font-size: 19px;
+  letter-spacing: 5px;
+  margin: 10px;
+}
+.header a:hover{
+  color:#3467d6;
+}
+/* .Registration {
+  width: 100%;
+  display: flex;
+  border-collapse: collapse;
+  align-items: center;
+  justify-content: space-around;
+} */
+.formdiv{
+   width: 25%;
+   border: 1px solid rgb(105, 48, 48);
+   margin-top: 40px;
+  
+    
+}
+/* .menudiv{
+  width:70%;
+  height: 10vh;
+  
+} */
+/* .field{
+  text-align: left;
+  background-color:whitesmoke;
+  width: 100%;
+  padding: 10px 60px;
+  padding-bottom: 10px 60px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 3px solid #0088cc;
+  
+  box-sizing: border-box;
+} */
+/* .dashboard{
+  text-align:left;
+} */
